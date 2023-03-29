@@ -60,7 +60,7 @@ export default function Contact() {
                 base: '4xl',
                 md: '5xl',
               }}>
-              Get in Touch
+              Entre em contato conosco por email
             </Heading>
 
             <Stack
@@ -145,7 +145,7 @@ export default function Contact() {
 
                     <InputGroup>
                       <InputLeftElement children={<BsPerson />} />
-                      <Input type="text" name="name" placeholder="Your Name" />
+                      <Input type="text" name="name" placeholder="Nome" />
                     </InputGroup>
                   </FormControl>
 
@@ -157,7 +157,7 @@ export default function Contact() {
                       <Input
                         type="email"
                         name="email"
-                        placeholder="Your Email"
+                        placeholder="Seu email"
                       />
                     </InputGroup>
                   </FormControl>
