@@ -33,6 +33,7 @@ export default function Projects() {
 
   return (
     <Center
+      bg={'blackAlpha.800'}
       className='responsive'
       css={{
         backgroundImage: useColorModeValue(CONFETTI_LIGHT, CONFETTI_DARK),

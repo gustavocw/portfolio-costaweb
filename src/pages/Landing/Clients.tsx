@@ -41,6 +41,8 @@ import {
     const { title, stat, icon } = props;
     return (
       <Stat
+      bg={'blackAlpha.800'}
+      color={'#fff'}
       css={{
         backgroundImage: useColorModeValue(CONFETTI_LIGHT, CONFETTI_DARK),
         backgroundAttachment: 'fixed',
@@ -63,7 +65,7 @@ import {
           </Box>
           <Box
             my={'auto'}
-            color={useColorModeValue('gray.800', 'gray.200')}
+            color={useColorModeValue('gray.400', 'gray.200')}
             alignContent={'center'}>
             {icon}
           </Box>
@@ -75,7 +77,9 @@ import {
   export default function Clients() {
     return (
       <Box
-       maxW="7xl" mx={'auto'} pt={5} px={{ base: 2, sm: 12, md: 17 }}>
+      bg={'blackAlpha.800'}
+      color={'#fff'}
+       maxW="10xl" mx={'auto'} pt={5} px={{ base: 2, sm: 12, md: 17 }}>
         <chakra.h1
           textAlign={'center'}
           fontSize={'4xl'}

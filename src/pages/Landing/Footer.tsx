@@ -41,7 +41,8 @@ import {
   }) => {
     return (
       <chakra.button
-        bg={useColorModeValue('blackAlpha.100', 'whiteAlpha.100')}
+        bg={'blackAlpha.800'}
+        color={'#fff'}
         rounded={'full'}
         w={8}
         h={8}
@@ -64,8 +65,8 @@ import {
   export default function Footer() {
     return (
       <Box
-        bg={useColorModeValue('gray.50', 'gray.900')}
-        color={useColorModeValue('gray.700', 'gray.200')}>
+        bg={'blackAlpha.800'}
+        color={useColorModeValue('gray.300', 'gray.200')}>
         <Container
           as={Stack}
           maxW={'6xl'}
@@ -94,7 +95,7 @@ import {
             spacing={4}
             justify={{ base: 'center', md: 'space-between' }}
             align={{ base: 'center', md: 'center' }}>
-            <Text>© 2022 Chakra Templates. All rights reserved</Text>
+            <Text>© 2022 CostaWeb. All rights reserved</Text>
             <Stack direction={'row'} spacing={6}>
               <SocialButton label={'Twitter'} href={'#'}>
                 <FaTwitter />

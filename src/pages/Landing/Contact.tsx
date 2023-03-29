@@ -41,7 +41,8 @@ export default function Contact() {
 
   return (
     <Flex
-      bg={useColorModeValue('gray.100', 'gray.900')}
+      bg={'blackAlpha.800'}
+      color={'#fff'}
       align="center"
       justify="center"
       css={{
@@ -134,10 +135,10 @@ export default function Contact() {
               </Stack>
 
               <Box
-                bg={useColorModeValue('white', 'gray.700')}
+                bg={'blackAlpha.800'}
                 borderRadius="lg"
                 p={8}
-                color={useColorModeValue('gray.700', 'whiteAlpha.900')}
+                color={useColorModeValue('gray.200', 'whiteAlpha.900')}
                 shadow="base">
                 <VStack spacing={5}>
                   <FormControl isRequired>
@@ -180,7 +181,7 @@ export default function Contact() {
                     _hover={{
                       bg: 'blue.500',
                     }}>
-                    Send Message
+                    Enviar mensagem
                   </Button>
                 </VStack>
               </Box>
