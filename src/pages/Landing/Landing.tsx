@@ -28,8 +28,7 @@ import {
               fontWeight={700}
               lineHeight={1.2}
               fontSize={useBreakpointValue({ base: '3xl', md: '4xl' })}>
-              Lorem ipsum dolor sit amet consectetur adipiscing elit sed do
-              eiusmod tempor
+              Transformamos ideias em soluções digitais. Desenvolvimento web sob medida para sua empresa decolar!
             </Text>
             <Stack direction={'row'}>
               <Button
@@ -37,14 +36,14 @@ import {
                 rounded={'full'}
                 color={'white'}
                 _hover={{ bg: 'blue.500' }}>
-                Show me more
+                TENHO INTERESSE!
               </Button>
               <Button
                 bg={'whiteAlpha.300'}
                 rounded={'full'}
                 color={'white'}
                 _hover={{ bg: 'whiteAlpha.500' }}>
-                Show me more
+                SOBRE NÓS
               </Button>
             </Stack>
           </Stack>
