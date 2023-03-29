@@ -47,12 +47,12 @@ export default function Projects() {
         my={5}
         mx={[0, 5]}
         overflow={"hidden"}
-        bg="white"
+        bg="gray.100"
         border={"1px"}
-        borderColor="black"
-        boxShadow={useColorModeValue("6px 6px 0 black", "6px 6px 0 cyan")}
+        borderColor="gray"
+        boxShadow={useColorModeValue("6px 6px 0 gray", "6px 6px 0 cyan")}
       >
-        <Box h={"200px"} borderBottom={"1px"} borderColor="black">
+        <Box h={"200px"} borderBottom={"1px"} borderColor="gray">
           <Img
             src={"https://images2.imgbox.com/80/3e/EOWFFoNG_o.png"}
             roundedTop={"sm"}
@@ -102,10 +102,10 @@ export default function Projects() {
         my={5}
         mx={[0, 5]}
         overflow={"hidden"}
-        bg="white"
+        bg="gray.100"
         border={"1px"}
-        borderColor="black"
-        boxShadow={useColorModeValue("6px 6px 0 black", "6px 6px 0 cyan")}
+        borderColor="gray"
+        boxShadow={useColorModeValue("6px 6px 0 gray", "6px 6px 0 cyan")}
       >
         <Box h={"200px"} borderBottom={"1px"} borderColor="black">
           <Img
@@ -157,10 +157,10 @@ export default function Projects() {
         my={5}
         mx={[0, 5]}
         overflow={"hidden"}
-        bg="white"
+        bg="gray.100"
         border={"1px"}
-        borderColor="black"
-        boxShadow={useColorModeValue("6px 6px 0 black", "6px 6px 0 cyan")}
+        borderColor="gray"
+        boxShadow={useColorModeValue("6px 6px 0 gray", "6px 6px 0 cyan")}
       >
         <Box h={"200px"} borderBottom={"1px"} borderColor="black">
           <Img
@@ -212,10 +212,10 @@ export default function Projects() {
         my={5}
         mx={[0, 5]}
         overflow={"hidden"}
-        bg="white"
+        bg="gray.100"
         border={"1px"}
-        borderColor="black"
-        boxShadow={useColorModeValue("6px 6px 0 black", "6px 6px 0 cyan")}
+        borderColor="gray"
+        boxShadow={useColorModeValue("6px 6px 0 gray", "6px 6px 0 cyan")}
       >
         <Box h={"200px"} borderBottom={"1px"} borderColor="black">
           <Img
