@@ -90,58 +90,58 @@ export default function Testimonials() {
     <Box my={20}  bg={useColorModeValue('gray.100', 'gray.700')}>
       <Container maxW={'7xl'} py={16} as={Stack} spacing={12}>
         <Stack spacing={0} align={'center'}>
-          <Heading>Our Clients Speak</Heading>
-          <Text>We have been working with clients around the world</Text>
+          <Heading>Ouça o que nossos clientes têm a dizer sobre nós</Heading>
+          <Text>Comentários reais de pessoas reais, comprovando nossa excelência em atendimento e qualidade.</Text>
         </Stack>
         <Stack
           direction={{ base: 'column', md: 'row' }}
           spacing={{ base: 10, md: 4, lg: 10 }}>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Efficient Collaborating</TestimonialHeading>
+              <TestimonialHeading>Alkord Sistemas</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+              Nossa parceria com eles para manutenção de 
+              nossos sistemas tem sido excelente. O suporte é sempre rápido e eficiente, e a qualidade do trabalho é impecável
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
+                'https://www.vendasexternas.com.br/wp-content/uploads/2016/09/cropped-favicon-vendasexternas.png'
               }
-              name={'Jane Cooper'}
-              title={'CEO at ABC Corporation'}
+              name={'Vinícios'}
+              title={'CTO Alkord Sistemas Ltda'}
             />
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Intuitive Design</TestimonialHeading>
+              <TestimonialHeading>Auchan</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+              "Estamos extremamente satisfeitos com o serviço de manutenção de site prestado pela equipe. Eles são altamente responsivos e eficientes em 
+              resolver qualquer problema que possa surgir. Sem dúvida, recomendamos seus serviços a qualquer empresa que precise de suporte técnico confiável
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
+                'https://assets.stickpng.com/images/5a1c2db4f65d84088faf13ce.png'
               }
-              name={'Jane Cooper'}
-              title={'CEO at ABC Corporation'}
+              name={'Hichame Rahoui'}
+              title={'CTO at Auchan Portugal'}
             />
           </Testimonial>
           <Testimonial>
             <TestimonialContent>
-              <TestimonialHeading>Mindblowing Service</TestimonialHeading>
+              <TestimonialHeading>Nexly Members</TestimonialHeading>
               <TestimonialText>
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Auctor
-                neque sed imperdiet nibh lectus feugiat nunc sem.
+              A plataforma web que eles estão criando para nós superou todas as nossas 
+              expectativas. O design é moderno e funcional, e a equipe é muito profissional durante todo o processo de desenvolvimento.
               </TestimonialText>
             </TestimonialContent>
             <TestimonialAvatar
               src={
-                'https://images.unsplash.com/photo-1586297135537-94bc9ba060aa?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=100&q=80'
+                'https://www.pngarts.com/files/6/User-Avatar-in-Suit-PNG.png'
               }
-              name={'Jane Cooper'}
-              title={'CEO at ABC Corporation'}
+              name={'Lucas'}
+              title={'CEO at Nexly Members'}
             />
           </Testimonial>
         </Stack>

@@ -8,6 +8,7 @@ import {
   } from '@chakra-ui/react';
   
   export default function LandingPage() {
+    
     return (
       <Flex
         w={'full'}
@@ -35,16 +36,18 @@ import {
                 bg={'blue.400'}
                 rounded={'full'}
                 color={'white'}
-                _hover={{ bg: 'blue.500' }}>
-                TENHO INTERESSE!
+                _hover={{ bg: 'blue.500' }}
+                onClick={() => window.open('https://wa.link/s8my4v', '_blank')}>
+                FAZER ORÇAMENTO!
               </Button>
-              <Button
+              {/* <Button
                 bg={'whiteAlpha.300'}
                 rounded={'full'}
                 color={'white'}
-                _hover={{ bg: 'whiteAlpha.500' }}>
+                _hover={{ bg: 'whiteAlpha.500' }}
+                onClick={() => window.open('#about')}>
                 SOBRE NÓS
-              </Button>
+              </Button> */}
             </Stack>
           </Stack>
         </VStack>
