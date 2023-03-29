@@ -51,7 +51,7 @@ export default function Projects() {
       >
         <Box h={"200px"} borderBottom={"1px"} borderColor="black">
           <Img
-            src={"./imgs/1.png"}
+            src={"https://images2.imgbox.com/80/3e/EOWFFoNG_o.png"}
             roundedTop={"sm"}
             objectFit="cover"
             h="full"
@@ -106,7 +106,7 @@ export default function Projects() {
       >
         <Box h={"200px"} borderBottom={"1px"} borderColor="black">
           <Img
-            src={"./imgs/2.png"}
+            src={"https://images2.imgbox.com/4a/77/mIMfLHvp_o.png"}
             roundedTop={"sm"}
             objectFit="cover"
             h="full"
@@ -161,7 +161,7 @@ export default function Projects() {
       >
         <Box h={"200px"} borderBottom={"1px"} borderColor="black">
           <Img
-            src={"./imgs/3.png"}
+            src={"https://images2.imgbox.com/ef/14/WMRpOk3Z_o.png"}
             roundedTop={"sm"}
             objectFit="cover"
             h="full"
@@ -216,7 +216,7 @@ export default function Projects() {
       >
         <Box h={"200px"} borderBottom={"1px"} borderColor="black">
           <Img
-            src={"./imgs/4.png"}
+            src={"https://images2.imgbox.com/11/91/2tvMgHgw_o.png"}
             roundedTop={"sm"}
             objectFit="cover"
             h="full"
