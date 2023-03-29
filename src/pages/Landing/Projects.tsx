@@ -1,3 +1,4 @@
+import "../../styles/responsive.css"
 import { useState } from "react";
 import {
   Box,
@@ -32,6 +33,7 @@ export default function Projects() {
 
   return (
     <Center
+      className='responsive'
       css={{
         backgroundImage: useColorModeValue(CONFETTI_LIGHT, CONFETTI_DARK),
         backgroundAttachment: "fixed",
