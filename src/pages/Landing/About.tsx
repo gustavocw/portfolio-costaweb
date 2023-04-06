@@ -35,7 +35,7 @@ const Feature = ({ title, text, icon }: FeatureProps) => {
 
 export default function About() {
   return (
-    <Box bg={'blackAlpha.800'} color={'blue.400'} p={4}>
+    <Box bg={'blackAlpha.800'} color={'gray.400'} p={4}>
       <SimpleGrid my={20} columns={{ base: 1, md: 3 }} spacing={10}>
         <Feature
           icon={<Icon as={FcAcceptDatabase} w={10} h={10} />}

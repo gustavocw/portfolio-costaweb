@@ -95,7 +95,7 @@ export default function Projects() {
           )
         }
       >
-        <h3>SIte mercado Auchan</h3>
+        <h3>Site mercado Auchan</h3>
         <Img
           className="imgs1"
           src={"https://images2.imgbox.com/99/35/G6iRCzjQ_o.png"}

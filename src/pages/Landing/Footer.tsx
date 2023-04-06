@@ -14,9 +14,9 @@ import {
   const Logo = (props: any) => {
     return (
       <img
-        style={{ width: '10%' }}
+        style={{ width: '13%', borderRadius: '10px' }}
         viewBox="0 0 120 28"
-        src="https://images2.imgbox.com/6c/63/oTV2CMSK_o.png"
+        src="imgs/cw.png"
         {...props}>
       </img>
     );
