@@ -64,6 +64,10 @@ export default function Projects() {
   }, []);
 
   return (
+    <div className="principal">
+      <div className="title">
+        <h1>Alguns de nossos projetos:</h1>
+      </div>
     <Center bg={"blackAlpha.800"} className="responsive" py={6}>
       <div
         className="card"
@@ -241,5 +245,6 @@ export default function Projects() {
         />
       </div>
     </Center>
+    </div>
   );
 }
