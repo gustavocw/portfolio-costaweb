@@ -136,7 +136,7 @@ export default function Projects() {
         className="card"
         onClick={() =>
           window.open(
-            "http://apollomembers.netlify.app/",
+            "http://nexly.netlify.app/",
             "_blank"
           )
         }
