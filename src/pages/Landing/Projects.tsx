@@ -115,15 +115,15 @@ export default function Projects() {
         className="card"
         onClick={() =>
           window.open(
-            "https://www.worten.pt/",
+            "https://bellasproject.netlify.app/",
             "_blank"
           )
         }
       >
-        <h3>Site Worten</h3>
+        <h3>Site adulto Bellas</h3>
         <Img
           className="imgs1"
-          src={"https://images2.imgbox.com/20/e3/mnicX5CD_o.png"}
+          src={"https://images2.imgbox.com/f8/6a/KHP5bB2N_o.png"}
           roundedTop={"sm"}
           objectFit="contain"
           h="full"
