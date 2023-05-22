@@ -21,7 +21,7 @@ import { BsGithub, BsLinkedin, BsPerson, BsTwitter, BsWhatsapp } from 'react-ico
 import { MdEmail, MdOutlineEmail } from 'react-icons/md';
 
 export default function Contact() {
-  const { hasCopied, onCopy } = useClipboard('costaweb@gmail.com');
+  const { hasCopied, onCopy } = useClipboard('Optimum@gmail.com');
 
   return (
     <>    
