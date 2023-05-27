@@ -38,7 +38,7 @@ import {
                 rounded={'full'}
                 color={'white'}
                 _hover={{ bg: 'blue.500' }}
-                onClick={() => window.open('https://wa.link/s8my4v', '_blank')}>
+                onClick={() => window.open('wa.link/dg9tlc', '_blank')}>
                 FAZER ORÇAMENTO!
               </Button>
               {/* <Button
